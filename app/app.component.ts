@@ -1,14 +1,12 @@
-import {Component, OnInit} from "@angular/core";
+import {Component, OnInit, NgModule} from "@angular/core";
 import {ModalDialogService, ModalDialogOptions, ModalDialogHost} from "nativescript-angular/modal-dialog";
 import {ModalDialogParams} from "nativescript-angular/modal-dialog";
 import {DatePicker} from "ui/date-picker";
 import {Page} from "ui/page";
 
 
-
 @Component({
 
-    directives: [ModalDialogHost],
     providers: [ModalDialogService],
     selector: "my-app",
     templateUrl:"app.component.html"
